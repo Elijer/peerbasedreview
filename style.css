@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+/*
+
+#262C2B - navbar bg
+#4E605E - navbar text
+
+# 4E605E - title text, and text texti
+# F7F1ED - bg
+# EEEAE7 - callout color
+# D9D9D9 - underline color
+*/
+
+
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  color: #4E605E;
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding: 30px;
+  padding-top: 60px;
+}
+
+.yo {
+  text-decoration-color: #DD9971;
+}
+
+.chonk {
+  text-decoration-thickness: 5px;
+  /* text-underline-offset: -2px; */
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 50px;
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #4E605E;
+  
+}
+
+p {
+  font-size: 22px;
+}
+
+span {
+  text-decoration: underline;
+  text-decoration-color: #D9D9D9;
+}
+
+.bio {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.callout {
+  background: #EEEAE7;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #D9D9D9;
+}
+
+:root {
+  margin: 0px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  /* color: #F7F1ED; */
+  background: #F7F1ED;
+  /* background-color: #242424; */
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+  width: 700px;
+  margin: auto;
+}
+
+.nav {
+  margin: 0;
+  padding: 20px;
+  background: #262C2B;
+  color: #4E605E;
+  font-size: 30px;
+  /* box-shadow: 0px 2px 2px black; */
+}
+
+a {
+  color: #DD9971;
+}
